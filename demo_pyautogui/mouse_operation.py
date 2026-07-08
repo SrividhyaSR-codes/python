@@ -8,7 +8,7 @@ if script_dir in sys.path:
     sys.path.remove(script_dir)
 
 try:
-    import mouse_operation
+    import demo_pyautogui.mouse_operation as mouse_operation
 except ModuleNotFoundError as exc:
     raise SystemExit("pyautogui is not installed in the active Python environment. Install it with: pip install pyautogui") from exc
 
