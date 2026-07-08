@@ -21,7 +21,6 @@ class FindingMousePointer:
         print(f"Mouse pointer position: ({x}, {y})")
         return x, y
 
-
 if __name__ == "__main__":
     mouse = FindingMousePointer()
     mouse.print_position()
